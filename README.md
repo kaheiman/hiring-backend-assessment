@@ -8,12 +8,11 @@
 - The format of license plate must be consisted of 6 characters (length must be 6), no matter which issuing country it belongs to.
 - Registration number should be same as license plate number.
 - An invalidate VIN means the VIN cannot be decoded by Decode VIN api (Third-Party api)(<https://vpic.nhtsa.dot.gov/api/>)
-- Registration expiration only accept date format in MM/DD/YY
+- Registration expiration only accept date format in MM/DD/YYYY
 - Car value cannot be a negative number.
 - Current mileage cannot be a negative number.
 - Name of registration cannot be empty and no more than 128 characters.
 - Vehicle description can be null or no more than 10240 characters.
-- Vehicle color only accept HTML color codes format (two digit hexadecimal format).
 - Vehicle Identification Code object cannot exist without Vehicle object.
 - Hard delete is going to adapt in this task.
 
